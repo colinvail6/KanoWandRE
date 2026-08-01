@@ -8,15 +8,17 @@ Reverse engineering project for the Kano Harry Potter Wand
 
 ## BLE characteristics
 ### Services for IO
-- Battery: 
-- Vibration motor:
-- LED control (NeoPixel): 
-- User button: 
-- Keep alive (write):
+- Battery: 64A70007-F691-4B93-A6F4-0968F5B648F8
+- Vibration motor: 64A70008-F691-4B93-A6F4-0968F5B648F8
+- LED control (NeoPixel): 64A70009-F691-4B93-A6F4-0968F5B648F8
+- User button: 64A70009-F691-4B93-A6F4-0968F5B648F8
+- Keep alive (write): 64A7000F-F691-4B93-A6F4-0968F5B648F8
 ### Services for sensors
-- Keep alive (notify):
-- Reset quaternions:
-- Raw 9-axis:
-- Linear Acc:
-- Temperature (°C):
-- Magnetometer calibration:
+- Keep alive (notify): 64A70002-F691-4B93-A6F4-0968F5B648F8
+- Reset quaternions: 64A70004-F691-4B93-A6F4-0968F5B648F8
+- Raw 9-axis: 64A7000A-F691-4B93-A6F4-0968F5B648F8
+- Linear Acc: 64A7000C-F691-4B93-A6F4-0968F5B648F8
+- Temperature (°C): 64A70014-F691-4B93-A6F4-0968F5B648F8
+- Magnetometer calibration: 64A70021-F691-4B93-A6F4-0968F5B648F8
+### Services for DFU
+- Secure DFU: 0x8EC90003-F315-4F60-9FB8-838830DAEA50
